@@ -11,9 +11,15 @@ LogErrorPattern
 
 PatternMatching: Logic
 ```
+PatternMatching
      boolean isMatch()
      void storeErrorLog(String errorLog)
      void printErrorLog()
+```
+
+Main: Program init
+```
+Main
 ```
 ## DataStructure
     error_message_bank: HashSet<LogErorPattern>
