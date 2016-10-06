@@ -1,14 +1,11 @@
 package com.tian.maxim.logscan;
 
-import java.awt.*;
-import java.util.ArrayList;
-
 /**
- * Created by tliu3 on 9/20/16.
+ * Created by tliu3 on 10/6/16.
  */
-public class runPassMessage implements LogErrorPattern {
-    private String _pattern = "ERROR:";
-    private int _priority = 0;
+public class highPriorityMessage implements LogErrorPattern {
+    private String _pattern = "ORA-12545: Connect failed because target host or object does not exist";
+    private int _priority = 1;
 
     public void setPattern(String errorMessage) {
         this._pattern = errorMessage;

@@ -1,5 +1,8 @@
 package com.tian.maxim.logscan;
 
+import java.awt.*;
+import java.util.ArrayList;
+
 /**
  * Created by tian Liu on 9/20/16.
  * The interface define a log pattern object.
@@ -28,4 +31,5 @@ public interface LogErrorPattern {
      * @return Priority
      */
     int getPriority();
+
 }
